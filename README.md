@@ -24,7 +24,7 @@ if (isset($_GET['cmd'])) {
 An attacker could execute:
 
 ```
-[http://127.0.0.1/phpcode.php?cmd=phpinfo()](http://example.com/vuln.php?cmd=phpinfo()) 
+http://127.0.0.1/phpcode.php?cmd=phpinfo()](http://example.com/vuln.php?cmd=phpinfo()) 
 ```
 
 or even execute system commands if `eval()` allows it:
