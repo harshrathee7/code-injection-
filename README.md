@@ -118,14 +118,14 @@ http://127.0.0.1/phpcode.php?cmd=system('ls');
 
 To prevent PHP Code Injection:
 
- **Avoid `eval()` and similar functions**
+ - **Avoid `eval()` and similar functions**
 
- **Use allowlists** (Only permit specific commands)
+ - **Use allowlists** (Only permit specific commands)
 
- **Sanitize and validate input**
+ - **Sanitize and validate input**
 
- **Use prepared statements for database queries**
+ - **Use prepared statements for database queries**
 
- **Disable dangerous PHP functions in `php.ini`**
+ - **Disable dangerous PHP functions in `php.ini`**
 
- **disable exec(), shell_exec(), passthru(), and system() functions in PHP configuration unless it is absolutely necessary to use them. You can also create a whitelist of accepted commands/arguments.**
+ - **disable exec(), shell_exec(), passthru(), and system() functions in PHP configuration unless it is absolutely necessary to use them. You can also create a whitelist of accepted commands/arguments.**
